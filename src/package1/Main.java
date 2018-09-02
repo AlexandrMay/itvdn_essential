@@ -1,5 +1,6 @@
 package package1;
 
+import animal.Cat;
 import package2.ExamplePackage2;
 import package2.Parent;
 
@@ -23,6 +24,11 @@ public class Main extends Parent{
     //    System.out.println(parent.name2);
         System.out.println(parent.name3);
         System.out.println(parent.name4);
+
+        Cat c = new Cat("VASKA", 5);
+    //    c.setName("vaska");
+      //  c.setAge(5);
+        System.out.println(c.name + " " + c.age);
     }
 
 }
